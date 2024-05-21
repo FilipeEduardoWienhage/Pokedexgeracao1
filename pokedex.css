@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    background-color: rgb(8, 8, 173);
+}
+
+header {
+    background-color: yellow;
+    color: rgb(214, 34, 34);
+    padding: 10px;
+    width: 25%;
+    margin:auto;
+    border-radius: 8px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+}
+.pokemon {
+    background-color: red;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.fogo {
+    background-color: red;
+}
+.agua {
+    background-color: aqua;
+}
+.psiquico {
+    background-color: goldenrod;
+}
+.normal {
+    background-color: magenta;
+}
+.eletrico {
+    background-color: rgb(226, 226, 68);
+}
+.planta {
+    background-color: rgb(65, 216, 65);
+}
+.inseto {
+    background-color: sienna;
+}
+.venenoso {
+    background-color: rgb(122, 34, 85);
+}
+.terrestre {
+    background-color: rgb(67, 50, 38);
+}
+.fada {
+    background-color: pink;
+}
+.pedra {
+    background-color: rgb(115, 107, 107);
+}
+.fantasma {
+    background-color: rgba(143, 110, 110, 0.696);
+}
+.lutador {
+    background-color: orangered;
+}
+.gelo {
+    background-color: dodgerblue;
+}
+.dragao {
+    background-color: darkred;
+}
+h2 {
+    color: white;
+    font-family: cursive;
+}
+footer {
+    color: blue;
+    text-align: center; 
+    padding: 10px;
+    background-color: #e0e0e0;
+}
